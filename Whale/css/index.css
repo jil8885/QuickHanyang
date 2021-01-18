@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px, 100px, 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.menu-button {
+	border-radius: 10%;
+	box-shadow: 3px 3px 3px #D2D2D2;
+	margin: 5px;
+	text-align: center;
+}
+.menu-button:hover {
+	border: 2px solid #4370ff;
+}
+.menu-button > a {
+	color: black;
+	display: block;
+	height: 100px;
+	width: 100px;
+	text-decoration: none;
+}
+.menu-button > a > img {
+	height: 50px;
+	margin-top: 10px;
+	width: 50px;
+}
+.menu-button > a > p {
+	font-family: inherit;
+	font-size: 12px;
+	margin: 5px;
+}
