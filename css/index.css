@@ -6,7 +6,8 @@
     font-weight: bold;
 	word-break: keep-all;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 120px 120px 120px 30px;
     row-gap: 10px;
     column-gap: 10px;
 }
@@ -19,7 +20,7 @@
     border: 2px solid #ffffffff;
 }
 .menu-button:hover {
-	border: 2px solid #4370ff;
+	border: 2px solid #1d2475;
 }
 .menu-button > a {
 	color: black;
@@ -34,7 +35,21 @@
 	width: 50px;
 }
 .menu-button > a > p {
-	font-family: inherit;
+    font-family: 'Nanum Gothic';
 	font-size: 12px;
 	margin: 5px;
+}
+
+.footer {
+	color: gray;
+    font-family: 'Nanum Gothic';
+	font-size: 10px;
+	font-weight: 100;
+	grid-column: span 3;
+	padding: 1px;
+	text-align: center;
+}
+.footer > div > a {
+	color: gray;
+	text-decoration: none;
 }
