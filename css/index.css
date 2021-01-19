@@ -8,8 +8,6 @@
     display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 120px 120px 120px 30px;
-    row-gap: 10px;
-    column-gap: 10px;
 }
 
 .menu-button {
