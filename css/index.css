@@ -9,6 +9,28 @@ body {
 	word-break: keep-all;
 }
 
+.buttonBox {
+	text-align: right;
+}
+
+.settingButton {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	object-fit: contain;
+	padding-left: 6px;
+	padding-right: 5px;
+}
+
+.githubButton {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	object-fit: contain;
+	padding-left: 6px;
+	padding-right: 5px;
+}
+
 .grid-container {
     background-color: white;
 	font-family: 'Nanum Gothic', serif;
