@@ -11,7 +11,7 @@ body {
 
 .grid-container {
     background-color: white;
-    font-family: 'Nanum Gothic';
+	font-family: 'Nanum Gothic', serif;
     font-weight: bold;
 	word-break: keep-all;
     display: grid;
@@ -42,14 +42,14 @@ body {
 	width: 50px;
 }
 .menu-button > a > p {
-    font-family: 'Nanum Gothic';
+	font-family: 'Nanum Gothic', serif;
 	font-size: 12px;
 	margin: 5px;
 }
 
 .footer {
 	color: gray;
-    font-family: 'Nanum Gothic';
+	font-family: 'Nanum Gothic', serif;
 	font-size: 10px;
 	font-weight: 100;
 	grid-column: span 3;
