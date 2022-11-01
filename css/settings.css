@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	background-color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	word-break: keep-all;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 1fr 1fr 1fr;
+}
+.theme-color {
+	grid-column: span 1;
+	margin: 5px;
+}
+.button-select-department {
+	grid-column: span 1;
+	margin: 5px;
+}
+.options-notice {
+	grid-column: span 2;
+	margin: 5px;
+}
+.button-link {
+	margin: 5px;
+}
+
+button {
+	background-color: white;
+	border: 1px solid #0e4a84;
+	border-radius: 3px 3px 3px 3px;
+	font-family: inherit;
+	height: 30px;
+	margin: 3px;
+	transition-duration: 0.3s;
+	width: 100px;
+}
+
+button:hover {
+	background-color: #0e4a84;
+	color: white;
+}
+
+button:active {
+	background-color: #0e4a84;
+	border: 0;
+	color: white;
+	outline: 0;
+}
+
+button:focus{
+	border: 1px solid #0e4a84;
+	outline: 0;
+}
