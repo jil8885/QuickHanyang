@@ -1,0 +1,174 @@
+{
+  "학과 선택": {
+    "major": "./settings.html",
+    "college": "./settings.html"
+  },
+  "소프트웨어학부": {
+    "major": "http://sw.hanyang.ac.kr/",
+    "college": "http://computing.hanyang.ac.kr/"
+  },
+  "ICT융합학부": {
+    "major": "http://ict.hanyang.ac.kr/",
+    "college": "http://computing.hanyang.ac.kr/"
+  },
+  "인공지능학과": {
+    "major": "http://aix.hanyang.ac.kr/",
+    "college": "http://computing.hanyang.ac.kr/"
+  },
+  "기계공학과": {
+    "major": "http://mech.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "로봇공학과": {
+    "major": "http://robot.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "산업경영공학과": {
+    "major": "http://ime.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "전자공학부": {
+    "major": "http://eece.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "재료화학공학과": {
+    "major": "http://mscheme.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "생명나노공학과": {
+    "major": "http://bne.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "건축학부": {
+    "major": "http://arch.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "건설환경플랜트공학과": {
+    "major": "",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "교통물류공학과": {
+    "major": "http://traffic.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "국방정보공학과": {
+    "major": "http://mie.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "융합공학과": {
+    "major": "http://cie.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "스마트융합공학부": {
+    "major": "http://sce.hanyang.ac.kr/",
+    "college": "http://ieng.hanyang.ac.kr/"
+  },
+  "약학과": {
+    "major": "http://pharmacy.hanyang.ac.kr/",
+    "college": "http://pharmacy.hanyang.ac.kr/"
+  },
+  "응용수학과": {
+    "major": "http://amath.hanyang.ac.kr/",
+    "college": "http://scitech.hanyang.ac.kr/"
+  },
+  "응용물리학과": {
+    "major": "http://appliedphysics.hanyang.ac.kr/",
+    "college": "http://scitech.hanyang.ac.kr/"
+  },
+  "화학분자공학과": {
+    "major": "http://chemistry.hanyang.ac.kr/",
+    "college": "http://scitech.hanyang.ac.kr/"
+  },
+  "분자생명과학과": {
+    "major": "http://biochem.hanyang.ac.kr/",
+    "college": "http://scitech.hanyang.ac.kr/"
+  },
+  "해양융합공학과": {
+    "major": "http://ocean.hanyang.ac.kr/",
+    "college": "http://scitech.hanyang.ac.kr/"
+  },
+  "나노광전자학과": {
+    "major": "http://photonics.hanyang.ac.kr/",
+    "college": "http://scitech.hanyang.ac.kr/"
+  },
+  "한국언어문학과": {
+    "major": "https://cafe.daum.net/hygukmun",
+    "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "문화인류학과": {
+    "major": "",
+    "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "문화콘텐츠학과": {
+    "major": "http://contents.hanyang.ac.kr/",
+    "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "중국학과": {
+    "major": "",
+    "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "일본학과": {
+      "major": "http://japan.hanyang.ac.kr/",
+      "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "영미언어문화학과": {
+    "major": "https://cafe.naver.com/hanunienglish",
+    "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "프랑스학과": {
+    "major": "",
+    "college": "https://lan-cul.hanyang.ac.kr/"
+  },
+  "정보사회미디어학과": {
+    "major": "http://mi.hanyang.ac.kr/",
+    "college": "https://ccss.hanyang.ac.kr/"
+  },
+  "광고홍보학과": {
+    "major": "http://adpr.hanyang.ac.kr/",
+    "college": "https://ccss.hanyang.ac.kr/"
+  },
+  "경제학부": {
+    "major": "",
+    "college": "https://ibus.hanyang.ac.kr/"
+  },
+  "경영학부": {
+    "major": "",
+    "college": "https://ibus.hanyang.ac.kr/"
+  },
+  "보험계리학과": {
+    "major": "",
+    "college": "https://ibus.hanyang.ac.kr/"
+  },
+  "회계세무학과": {
+    "major": "",
+    "college": "https://ibus.hanyang.ac.kr/"
+  },
+  "주얼리·패션디자인학과": {
+    "major": "",
+    "college": "https://idesign.hanyang.ac.kr/"
+  },
+  "산업디자인학과": {
+    "major": "",
+    "college": "https://idesign.hanyang.ac.kr/"
+  },
+  "커뮤니케이션디자인학과": {
+    "major": "",
+    "college": "https://idesign.hanyang.ac.kr/"
+  },
+  "영상디자인학과": {
+    "major": "",
+    "college": "https://idesign.hanyang.ac.kr/"
+  },
+  "스포츠과학부": {
+    "major": "",
+    "college": "http://sportsnarts.hanyang.ac.kr/"
+  },
+  "무용예술학과": {
+    "major": "",
+    "college": "http://sportsnarts.hanyang.ac.kr/"
+  },
+  "실용음악학과": {
+    "major": "",
+    "college": "http://sportsnarts.hanyang.ac.kr/"
+  }
+}
