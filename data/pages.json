@@ -1,0 +1,54 @@
+{
+  "홈페이지": {
+    "url": "https://www.hanyang.ac.kr/web/www/home",
+    "image": "../images/icons/img_homepage.png"
+  },
+  "포털": {
+    "url": "https://portal.hanyang.ac.kr",
+    "image": "../images/icons/img_portal.png"
+  },
+  "메일": {
+    "url": "https://mail.google.com",
+    "image": "../images/icons/img_mail.png"
+  },
+  "LMS": {
+    "url": "https://lms.hanyang.ac.kr",
+    "image": "../images/icons/img_lms.png"
+  },
+  "수강신청": {
+    "url": "https://sugang.hanyang.ac.kr",
+    "image": "../images/icons/img_class.png"
+  },
+  "전자출결": {
+    "url": "https://check.hanyang.ac.kr",
+    "image": "../images/icons/img_class.png"
+  },
+  "학사일정": {
+    "url": "https://www.hanyang.ac.kr/web/www/cal_academic",
+    "image": "../images/icons/img_calendar.png"
+  },
+  "학생식당": {
+    "url": "https://www.hanyang.ac.kr/web/www/re12",
+    "image": "../images/icons/img_food.png"
+  },
+  "교직원식당": {
+    "url": "https://www.hanyang.ac.kr/web/www/re11",
+    "image": "../images/icons/img_food.png"
+  },
+  "기숙사식당": {
+    "url": "https://www.hanyang.ac.kr/web/www/re13",
+    "image": "../images/icons/img_food.png"
+  },
+  "푸드코트": {
+    "url": "https://www.hanyang.ac.kr/web/www/re14",
+    "image": "../images/icons/img_food.png"
+  },
+  "창업보육센터": {
+    "url": "https://www.hanyang.ac.kr/web/www/re15",
+    "image": "../images/icons/img_food.png"
+  },
+  "학술정보관": {
+    "url": "https://information.hanyang.ac.kr/",
+    "image": "../images/icons/img_library.png"
+  }
+}
