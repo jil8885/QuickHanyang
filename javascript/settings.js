@@ -59,7 +59,6 @@ function insertPageButton(itemPosition){
                     .then(response => response.json())
                     .then(json => {
                         let major = json[majorName];
-                        console.log(major);
                         if (major["major"].length === 0 && page === "나의 학과") {
                             pageButton.disabled = true;
                         } else if (major["college"].length === 0 && page === "나의 단과대학") {
