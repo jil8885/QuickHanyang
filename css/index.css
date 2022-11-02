@@ -9,9 +9,31 @@ body {
 	word-break: keep-all;
 }
 
+.buttonBox {
+	text-align: right;
+}
+
+.settingButton {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	object-fit: contain;
+	padding-left: 6px;
+	padding-right: 5px;
+}
+
+.githubButton {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	object-fit: contain;
+	padding-left: 6px;
+	padding-right: 5px;
+}
+
 .grid-container {
     background-color: white;
-    font-family: 'Nanum Gothic';
+	font-family: 'Nanum Gothic', serif;
     font-weight: bold;
 	word-break: keep-all;
     display: grid;
@@ -36,20 +58,20 @@ body {
 	width: 100%;
 	text-decoration: none;
 }
-.menu-button > a > img {
+.menu-button > img {
 	height: 50px;
 	margin-top: 10px;
 	width: 50px;
 }
 .menu-button > a > p {
-    font-family: 'Nanum Gothic';
+	font-family: 'Nanum Gothic', serif;
 	font-size: 12px;
 	margin: 5px;
 }
 
 .footer {
 	color: gray;
-    font-family: 'Nanum Gothic';
+	font-family: 'Nanum Gothic', serif;
 	font-size: 10px;
 	font-weight: 100;
 	grid-column: span 3;
