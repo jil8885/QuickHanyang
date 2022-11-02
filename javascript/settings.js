@@ -52,6 +52,22 @@ function insertPageButton(itemPosition){
         let pageButton = document.createElement('button');
         pageButton.textContent = page;
         pageButton.className = "page-button";
+        if (page === "나의 학과" || page === "나의 단과대학") {
+            chrome.storage.sync.get('major', function(data) {
+                let majorName = data.major;
+                fetch("../data/major.json")
+                    .then(response => response.json())
+                    .then(json => {
+                        let major = json[majorName];
+                        console.log(major);
+                        if (major["major"].length === 0 && page === "나의 학과") {
+                            pageButton.disabled = true;
+                        } else if (major["college"].length === 0 && page === "나의 단과대학") {
+                            pageButton.disabled = true;
+                        }
+                    });
+            });
+        }
         pageButton.addEventListener('click', function() {
             chrome.storage.sync.set({[`Page${itemPosition}`]: page}, function() {
                 console.log('Page set to ' + page);
