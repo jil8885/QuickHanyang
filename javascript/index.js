@@ -57,7 +57,7 @@ function createPageButton(element, buttonIndex, theme) {
                             fetch("../data/major.json")
                                 .then(response => response.json())
                                 .then(json => {
-                                    let major = data[majorName];
+                                    let major = json[majorName];
                                     if (json) {
                                         url = major.college;
                                         setPageButtonElement(element, pageName, url, "../images/icons/img_class.png", theme);
