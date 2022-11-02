@@ -21,7 +21,7 @@
   },
   "전자출결": {
     "url": "https://check.hanyang.ac.kr",
-    "image": "../images/icons/img_class.png"
+    "image": "../images/icons/img_check.png"
   },
   "학사일정": {
     "url": "https://www.hanyang.ac.kr/web/www/cal_academic",

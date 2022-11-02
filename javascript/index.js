@@ -47,7 +47,7 @@ function createPageButton(element, buttonIndex, theme) {
                                     let major = json[majorName];
                                     if (major) {
                                         url = major.major;
-                                        setPageButtonElement(element, pageName, url, "../images/icons/img_class.png", theme);
+                                        setPageButtonElement(element, pageName, url, major.image, theme);
                                     }
                                 });
                         });
@@ -60,7 +60,7 @@ function createPageButton(element, buttonIndex, theme) {
                                     let major = json[majorName];
                                     if (json) {
                                         url = major.college;
-                                        setPageButtonElement(element, pageName, url, "../images/icons/img_class.png", theme);
+                                        setPageButtonElement(element, pageName, url, major.image, theme);
                                     }
                                 });
                         });
