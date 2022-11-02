@@ -39,6 +39,10 @@ button {
 	width: 100px;
 }
 
+button.page-button {
+	height: 50px;
+}
+
 button:hover {
 	background-color: #0e4a84;
 	color: white;
