@@ -7,12 +7,14 @@ window.addEventListener('DOMContentLoaded', function() {
             document.body.style.backgroundColor = '#1e1e1e';
             document.getElementById("settingsButtonImage").style.filter = "invert(100%)";
             document.getElementById("repositoryButtonImage").style.filter = "invert(100%)";
+            document.getElementById("semester-timer").style.filter = "invert(100%)";
             document.getElementsByClassName("grid-container")[0].style.backgroundColor = "#1e1e1e";
 
             let buttons = document.getElementsByClassName("menu-button");
 
             for (let i = 0; i < buttons.length; i++) {
                 buttons[i].style.borderColor = "#7f7f7f";
+                buttons[i].style.boxShadow = "none";
                 // change the color of the button's border when hovered over
                 buttons[i].onmouseover = function() {
                     buttons[i].style.borderColor = "#ffffff";
