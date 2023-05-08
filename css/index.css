@@ -42,6 +42,7 @@ body {
 }
 
 .semester-timer {
+	box-sizing: border-box;
 	width: 100%;
 	height: 30px;
 	line-height: 30px;
