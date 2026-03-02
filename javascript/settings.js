@@ -56,6 +56,10 @@ function insertPageButton(itemPosition){
         if (page === "나의 학과" || page === "나의 단과대학") {
             chrome.storage.sync.get('major', function(data) {
                 let majorName = data.major;
+                if (!majorName) {
+                    pageButton.disabled = true;
+                    return;
+                }
                 fetch("../data/major.json")
                     .then(response => response.json())
                     .then(json => {
