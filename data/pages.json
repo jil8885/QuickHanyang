@@ -50,5 +50,13 @@
   "학술정보관": {
     "url": "https://information.hanyang.ac.kr/",
     "image": "../images/icons/img_library.png"
+  },
+  "오류 및 건의": {
+    "url": "https://open.kakao.com/o/sW2kAinb",
+    "image": "../images/icons/img_calendar.png"
+  },
+  "HY-CDP": {
+    "url": "https://cdp.hanyang.ac.kr/",
+    "image": "../images/icons/img_lms.png"
   }
 }
